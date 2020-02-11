@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42f632b0-f5fb-4116-9baa-2c35a78e34bd" name="Default Changelist" comment="" />
+    <list default="true" id="42f632b0-f5fb-4116-9baa-2c35a78e34bd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sim/Similarity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
+            <state relative-caret-position="345">
               <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
               <folding>
                 <element signature="e#14#25#0" expanded="true" />
@@ -47,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/evaluate/Evaluate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
+            <state relative-caret-position="915">
               <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
               <folding>
                 <element signature="e#13#24#0" expanded="true" />
@@ -59,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="210">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -71,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algo/UserCF.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="120" column="18" lean-forward="true" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
+            <state relative-caret-position="399">
+              <caret line="120" column="18" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -102,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/util/FileUtil.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -111,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/util/PlotUtil.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -129,6 +131,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -155,12 +160,12 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-34" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="797" />
+    <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -178,6 +183,17 @@
               <item name="RecSys" type="b2602c69:ProjectViewProjectNode" />
               <item name="RecSys" type="462c0819:PsiDirectoryNode" />
               <item name="algo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecSys" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecSys" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+              <item name="ml-latest-small" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RecSys" type="b2602c69:ProjectViewProjectNode" />
@@ -269,6 +285,9 @@
       <module name="RecSys" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -288,6 +307,9 @@
       <module name="RecSys" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -307,6 +329,9 @@
       <module name="RecSys" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -326,6 +351,9 @@
       <module name="RecSys" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -372,11 +400,12 @@
       <workItem from="1581309087477" duration="9222000" />
       <workItem from="1581384244254" duration="8157000" />
       <workItem from="1581395737201" duration="22047000" />
+      <workItem from="1581427616618" duration="234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76084000" />
+    <option name="totallyTimeSpent" value="76318000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,10 +417,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="24" width="1440" height="797" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="800" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25894135" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26251787" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -400,7 +428,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32765958" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32630098" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
@@ -443,9 +471,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dataset/ml-latest/tags.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/ml-latest/tags.csv" />
     <entry file="file://$PROJECT_DIR$/algo/__init__.py" />
     <entry file="file://$PROJECT_DIR$/io/FileUtil.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevconsole.py">
@@ -484,36 +510,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/ml-latest/ratings.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algo/UserCF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          <folding>
-            <element signature="e#74#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algo/UserCF2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="74" column="6" lean-forward="true" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
-          <folding>
-            <element signature="e#74#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IMMatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/ml-latest/ratings.csv" />
+    <entry file="file://$PROJECT_DIR$/algo/UserCF2.py" />
+    <entry file="file://$PROJECT_DIR$/IMMatrix.py" />
     <entry file="file://$PROJECT_DIR$/util/Logger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -540,15 +539,22 @@
     <entry file="file://$PROJECT_DIR$/result/UserCF/coverage.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/sim/Similarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/result/UserCF/precision.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/algo/ItemCF.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/evaluate/Evaluate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
+        <state relative-caret-position="915">
           <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
           <folding>
             <element signature="e#13#24#0" expanded="true" />
@@ -556,13 +562,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sim/Similarity.py">
+    <entry file="file://$PROJECT_DIR$/Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        <state relative-caret-position="210">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
-            <element signature="e#14#25#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Entities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -576,38 +589,24 @@
     <entry file="file://$PROJECT_DIR$/util/FileUtil.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/PlotUtil.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Entities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/algo/ItemCF.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/algo/UserCF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="120" column="18" lean-forward="true" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
+        <state relative-caret-position="399">
+          <caret line="120" column="18" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
