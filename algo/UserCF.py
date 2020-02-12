@@ -1,4 +1,3 @@
-import logging
 
 import pandas as pd
 from sklearn.metrics import pairwise_distances
@@ -7,8 +6,8 @@ from Splitter.Splitter import ratioSplitter
 from evaluate import Evaluate
 from util import FileUtil
 import numpy as np
-from util.Logger import logger
-from util.PlotUtil import show
+from util import Logger
+from util import SaveHelper
 
 
 class UserCF:
@@ -23,6 +22,8 @@ class UserCF:
     W = None  # type:pd.DataFrame # user相似度矩阵
     P = None  # type:pd.DataFrame # 预测评分矩阵
 
+    logger = Logger.fileAndConsoleLogger('../result/UserCF/userCF.log')
+
     def load_data(self):
         """
         1. 读取原始数据。ratings数据格式为[Rating]
@@ -35,14 +36,14 @@ class UserCF:
         # 获取user和item列表,这里需要去重，并保持顺序
         users = np.unique([r.uid for r in train])
         items = np.unique([r.iid for r in train])
-        logger.debug(f"users长度:{len(users)}")
-        logger.debug(f"items长度:{len(items)}")
+        self.logger.debug(f"users长度:{len(users)}")
+        self.logger.debug(f"items长度:{len(items)}")
 
         # 构建训练集评分矩阵
         R_train = pd.DataFrame(np.zeros((len(users), len(items))), index=users, columns=items)
         for r in train:
             R_train.at[r.uid, r.iid] = 1  # 隐式反馈，这里就设置为1，忽略具体的评分数据
-        logger.debug(f"训练集评分矩阵:\n{R_train}")
+        self.logger.debug(f"训练集评分矩阵:\n{R_train}")
 
         # 构建测试集评分矩阵
         test_users = np.unique([r.uid for r in test])
@@ -50,7 +51,7 @@ class UserCF:
         R_test = pd.DataFrame(np.zeros((len(test_users), len(test_items))), index=test_users, columns=test_items)
         for r in test:
             R_test.at[r.uid, r.iid] = 1  # 隐式反馈，这里就设置为1，忽略具体的评分数据
-        logger.debug(f"测试集评分矩阵:\n{R_test}")
+        self.logger.debug(f"测试集评分矩阵:\n{R_test}")
 
         self.users = users
         self.items = items
@@ -65,7 +66,7 @@ class UserCF:
         """
         W = 1 - pairwise_distances(self.R_train.to_numpy(), metric="cosine")
         W = pd.DataFrame(W, index=self.users, columns=self.users)
-        logger.debug(f"user相似度矩阵：\n{W}")
+        self.logger.debug(f"user相似度矩阵：\n{W}")
         self.W = W
         return W
 
@@ -73,7 +74,7 @@ class UserCF:
         """
         3. 推荐。计算推荐(兴趣)矩阵P，P[u][i]表示u对i的兴趣值(预测的u对i的评分)
         """
-        logger.info(f"开始推荐,K={self.K}")
+        self.logger.info(f"开始推荐,K={self.K}")
         P = pd.DataFrame(np.zeros((len(self.users), len(self.items))), index=self.users, columns=self.items)
         for u in self.users:
             K_Wu = self.W[u].nlargest(self.K + 1).iloc[1:]
@@ -86,7 +87,7 @@ class UserCF:
                         continue
                     P.at[u, i] += self.W.at[u, v] * self.R_train.at[v, i]
 
-        logger.debug(f"预测矩阵：\n{P}")
+        self.logger.debug(f"预测矩阵：\n{P}")
         self.P = P
         return P
 
@@ -113,7 +114,7 @@ class UserCF:
         covrg = Evaluate.coverage(Ru_Dict, len(self.items))
         popu = Evaluate.popularity(self.R_train, Ru_Dict)
 
-        logger.info(
+        self.logger.info(
             f"K={self.K},N={self.N},准确率{precs * 100:.2f}%"
             f",召回率{recl * 100:.2f}%,覆盖率{covrg * 100:.2f}%,流行度{popu}")
         return precs, recl, covrg, popu
@@ -129,27 +130,16 @@ class UserCF:
 
 
 if __name__ == '__main__':
-    logger.setLevel(logging.DEBUG)
     userCF = UserCF()
     userCF.load_data()
     userCF.calc_user_sim()
 
-    Ks = np.arange(5, 41)
-    precisions = []
-    recalls = []
-    covs = []
-    pops = []
+    result = pd.DataFrame(columns=['K', 'N', "precision", 'recall', 'cov', 'pop'])
 
-    for K in Ks:
+    for index, K in enumerate(range(5, 41)):
         userCF.K = K
         userCF.rec()
         precision, recall, cov, pop = userCF.evaluate()
-        precisions.append(precision)
-        recalls.append(recall)
-        covs.append(cov)
-        pops.append(pop)
+        result.loc[index] = K, userCF.N, precision, recall, cov, pop
 
-    show('K', "precision", Ks, np.array(precisions))
-    show('K', "recall", Ks, np.array(recalls))
-    show('K', "coverage", Ks, np.array(covs))
-    show('K', "popularity", Ks, np.array(pops))
+    SaveHelper.save(result, 'UserCF')

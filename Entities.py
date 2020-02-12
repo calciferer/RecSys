@@ -11,3 +11,4 @@ iid : 物品id
 rating : u对i的评分
 
 """
+# Evaluation = namedtuple("Evaluation", ['recall','precision','popularity','coverage'])

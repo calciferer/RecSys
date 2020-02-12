@@ -60,21 +60,26 @@ import matplotlib.pyplot as plt
 # print(M.sum()['D'])
 # M.plot()
 
-x = np.arange(1, 10)
-y = np.arange(1, 10)
-z = x ** 2
+# x = np.arange(1, 10)
+# y = np.arange(1, 10)
+# z = x ** 2
 
-plt.plot(x, y, 'r:', label='y=x')
+# plt.plot(x, y, 'r:', label='y=x')
 # plt.plot(x, z, label='y=x^2')
 # plt.plot(x, x ** 3, label='cubic')
 
-plt.xlabel('x label')
-plt.ylabel('y label')
+# plt.xlabel('x label')
+# plt.ylabel('y label')
+#
+# plt.title("Simple Plot")
+#
+# plt.legend()
+#
+# plt.show()
+# plt.plot(x, z, 'r:', label='y=x^2')
+# plt.show()
 
-plt.title("Simple Plot")
-
-plt.legend()
-
-plt.show()
-plt.plot(x, z, 'r:', label='y=x^2')
-plt.show()
+df = pd.DataFrame(columns=['precision','recall'])
+df.loc[0] = 'a','b'
+print(df['recall'])
+print(df)
