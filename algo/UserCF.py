@@ -129,7 +129,7 @@ class UserCF:
 
 
 if __name__ == '__main__':
-    logger.setLevel(logging.INFO)
+    logger.setLevel(logging.DEBUG)
     userCF = UserCF()
     userCF.load_data()
     userCF.calc_user_sim()
