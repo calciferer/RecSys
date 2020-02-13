@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42f632b0-f5fb-4116-9baa-2c35a78e34bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/shuaijingcheng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/shuaijingcheng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities.py" beforeDir="false" afterPath="$PROJECT_DIR$/Entities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algo/ItemCF.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo/ItemCF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/UserCF.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo/UserCF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/UserCF/coverage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/UserCF/popularity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/UserCF/precision.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/UserCF/recall.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/UserCF/result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/Logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/Logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/PlotUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/PlotUtil.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algo/UserCF.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="131" column="22" lean-forward="true" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
+            <state relative-caret-position="1845">
+              <caret line="131" column="22" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
               <folding>
                 <element signature="e#1#20#0" expanded="true" />
               </folding>
@@ -59,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/result/UserCF/userCF.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8763">
+            <state relative-caret-position="810">
               <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
             </state>
           </provider>
@@ -85,16 +72,16 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/result/UserCF/2020-02-12 18:28:25/cov.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algo/ItemCF.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="133" column="26" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
+            <state relative-caret-position="164">
+              <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -138,16 +125,15 @@
         <option value="$PROJECT_DIR$/util/TimeUtil.py" />
         <option value="$PROJECT_DIR$/util/Logger.py" />
         <option value="$PROJECT_DIR$/util/SaveHelper.py" />
-        <option value="$PROJECT_DIR$/algo/ItemCF.py" />
         <option value="$PROJECT_DIR$/algo/UserCF.py" />
+        <option value="$PROJECT_DIR$/algo/ItemCF.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="14" />
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="800" />
+    <option name="height" value="794" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -157,7 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,6 +181,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,6 +217,9 @@
       <module name="RecSys" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -250,6 +239,9 @@
       <module name="RecSys" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -269,6 +261,9 @@
       <module name="RecSys" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -288,6 +283,9 @@
       <module name="RecSys" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -307,6 +305,9 @@
       <module name="RecSys" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -377,11 +378,12 @@
       <workItem from="1581395737201" duration="22047000" />
       <workItem from="1581427616618" duration="234000" />
       <workItem from="1581433066108" duration="16899000" />
+      <workItem from="1581555831843" duration="688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93217000" />
+    <option name="totallyTimeSpent" value="93905000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,10 +395,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1440" height="797" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="794" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21387696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14091559" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -411,12 +413,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32768363" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.39007092" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.16381766" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="310" height="594" id="Documentation" order="3" sideWeight="0.5181237" side_tool="true" weight="0.3297568" />
-      <window_info anchor="right" x="673" y="406" width="88" height="33" id="SciView" order="4" sideWeight="0.47547975" visible="true" weight="0.2811159" />
+      <window_info anchor="right" x="0" y="0" width="310" height="594" id="Documentation" order="3" sideWeight="0.5229983" side_tool="true" visible="true" weight="0.2274678" />
+      <window_info anchor="right" x="673" y="406" width="88" height="33" id="SciView" order="4" sideWeight="0.4770017" visible="true" weight="0.2274678" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.48187634" weight="0.3297568" />
     </layout>
     <layout-to-restore>
@@ -473,12 +475,8 @@
     <entry file="file://$PROJECT_DIR$/dataset/ml-latest/ratings.csv" />
     <entry file="file://$PROJECT_DIR$/algo/UserCF2.py" />
     <entry file="file://$PROJECT_DIR$/IMMatrix.py" />
-    <entry file="file://$PROJECT_DIR$/result/UserCF/recall.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/UserCF/popularity.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/result/UserCF/recall.png" />
+    <entry file="file://$PROJECT_DIR$/result/UserCF/popularity.png" />
     <entry file="file://$PROJECT_DIR$/sim/Similarity.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -489,9 +487,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result/UserCF/precision.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/result/UserCF/precision.png" />
     <entry file="file://$PROJECT_DIR$/evaluate/Evaluate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
@@ -516,9 +512,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result/test.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/result/test.png" />
     <entry file="file://$PROJECT_DIR$/util/FileUtil.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -526,9 +520,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result/UserCF/coverage.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/result/UserCF/coverage.png" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/matplotlib/cbook/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -543,40 +535,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result/ItemCF/precision.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/ItemCF/pop.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/ItemCF/cov.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/ItemCF/result.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/ItemCF/result.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/ItemCF/result.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/UserCF/result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="71" column="97" selection-start-line="71" selection-start-column="97" selection-end-line="71" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/result/ItemCF/precision.png" />
+    <entry file="file://$PROJECT_DIR$/result/ItemCF/pop.png" />
+    <entry file="file://$PROJECT_DIR$/result/ItemCF/cov.png" />
+    <entry file="file://$PROJECT_DIR$/result/ItemCF/result.csv" />
+    <entry file="file://$PROJECT_DIR$/result/ItemCF/result.json" />
+    <entry file="file://$PROJECT_DIR$/result/ItemCF/result.md" />
+    <entry file="file://$PROJECT_DIR$/result/UserCF/result.txt" />
     <entry file="file://$PROJECT_DIR$/Entities.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -611,19 +576,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/result/ItemCF/result.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/ItemCF/recall.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/test.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" lean-forward="true" selection-start-column="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/result/ItemCF/result.html" />
+    <entry file="file://$PROJECT_DIR$/result/ItemCF/recall.png" />
+    <entry file="file://$PROJECT_DIR$/util/test.log" />
     <entry file="file://$PROJECT_DIR$/util/Logger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -650,12 +605,8 @@
     <entry file="file://$PROJECT_DIR$/result/ItemCF/2020-02-12 16:31:24/recall.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/result/UserCF/2020-02-12 15:16:29/result.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/UserCF/2020-02-12 15:16:29/recall.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/result/UserCF/2020-02-12 15:16:29/result.html" />
+    <entry file="file://$PROJECT_DIR$/result/UserCF/2020-02-12 15:16:29/recall.png" />
     <entry file="file://$PROJECT_DIR$/result/ItemCF/2020-02-12 16:31:24/pop.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -664,16 +615,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/result/ItemCF/2020-02-12 16:31:24/cov.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algo/ItemCF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="133" column="26" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/result/ItemCF/itemCF.log">
       <provider selected="true" editor-type-id="text-editor">
@@ -684,8 +625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algo/UserCF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="131" column="22" lean-forward="true" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
+        <state relative-caret-position="1845">
+          <caret line="131" column="22" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
           <folding>
             <element signature="e#1#20#0" expanded="true" />
           </folding>
@@ -694,7 +635,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/result/UserCF/userCF.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8763">
+        <state relative-caret-position="810">
           <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
         </state>
       </provider>
@@ -713,6 +654,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/result/UserCF/2020-02-12 18:28:25/cov.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo/ItemCF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

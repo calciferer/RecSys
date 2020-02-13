@@ -12,7 +12,7 @@ import numpy as np
 class ItemCF:
     DataPath = "../dataset/ml-latest-small/ratings.csv"  # 全部数据路径
     Ratio = 0.8  # 训练集占数据集的比例
-    K = 10  # 最邻近的K个user
+    K = 10  # 最邻近的K个item
     N = 10  # 为每个user推荐N个item
     R_train = None  # type:pd.DataFrame # 训练集评分矩阵
     R_test = None  # type:pd.DataFrame # 测试集评分矩阵
